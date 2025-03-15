@@ -3,7 +3,7 @@ body {
   font-family: 'Lexend', sans-serif;
   background: #f0f0f0;
   justify-content: center;
-  align-items; center;
+  align-items: center;
   min-height: 100vh;
 }
 
@@ -32,7 +32,6 @@ p, a, li{
 
 .contact-info {
   display: flex;
-  justify-content: center;
   gap: 20px;
   margin-top: 20px
   font-size: 12px;
