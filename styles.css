@@ -49,13 +49,13 @@ p, a, li{
 }
 
 .resume.container{
-  width: 210mm;
-  height: 297mm;
+  width: 794px;
+  height: 1123px;
   font-size: 14px;
   background: white;
   margin: 20px auto;
   padding: 20mm;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   overflow:hidden;
 }
