@@ -37,7 +37,7 @@ p, a, li{
   font-size: 12px;
 }
 
-.conctact-info a {
+.contact-info a {
   text-decoration: none;
   font-size: 10px;
   color: #0077b5;
@@ -62,8 +62,10 @@ p, a, li{
   font-size: 14px;
   background: white;
   margin: 20px auto;
-  padding: 20mm;
+  padding: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #007bff;
+  background-color: #e9f5ff;
   border-radius: 5px;
   overflow:hidden;
 }
