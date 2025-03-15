@@ -40,6 +40,15 @@ h1, h2, h3, h4, h5, h6 {
   overflow:hidden;
 }
 
+@media (max-width: 768px) {
+  .resume.container{
+    transform: scale(0.8);
+    width: 100%;
+    height: auto;
+    padding: 10mm;
+  }
+}
+
 @media print{
   body{
     font-family: 'Lexend', sans-serif;
