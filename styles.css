@@ -26,3 +26,26 @@ h1, h2, h3, h4, h5, h6 {
 .contact-info a:hover{
   color: #005582;
 }
+
+@media print{
+  body{
+    font-family: 'Lexend', sans-serif;
+    color: black;
+    background: white;
+  }
+
+  a{
+    text-decoration: none;
+    color:black;
+  }
+
+  nav, .sidebar, .buttons{
+    color:black;
+  }
+
+  .resume-container{
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+}
