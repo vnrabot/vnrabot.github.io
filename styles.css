@@ -104,6 +104,15 @@ p, a, li{
   margin-bottom: 20px;
 }
 
+.centered-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-itmes: center;
+  text-align: center;
+  height: 200px
+}
+
 @media (max-width: 768px) {
   .resume.container{
     transform: scale(0.8);
