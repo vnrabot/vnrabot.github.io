@@ -70,6 +70,7 @@ a{
 .element-right{
   text-align: right;
   white-space: nowrap;
+  list-style-position: inside;
 }
 
 .boxed-paragraph{
