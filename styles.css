@@ -114,6 +114,9 @@ p, a, li{
 
 ul{
   list-style-type: "✔";
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 @media (max-width: 768px) {
