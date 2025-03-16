@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;700&family=Montserrat:wght@300;400;700&display=swap');
 body {
+  display:flex;
   font-family: 'Lexend', sans-serif;
   background: #f0f0f0;
   justify-content: center;
@@ -49,6 +50,7 @@ p, a, li{
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   align-items: center;
+  margin-bottom: 0;
 }
 
 .element-left{
