@@ -30,7 +30,14 @@ h3{
   color: #007bff
 }
 
-p, a, li{
+p{
+  font-size: 13px;
+  margin: 2px 0;
+  margin-left: 0;
+  margin-bottom: 5px;
+}
+
+a{
   font-size: 13px;
   margin: 2px 0;
   margin-left: 0;
@@ -122,6 +129,9 @@ ul{
 }
 
 li{
+  font-size: 13px;
+  margin: 2px 0;
+  margin-left: 0;
   text-indent: 20px;
 }
 
