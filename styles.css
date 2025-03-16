@@ -110,7 +110,6 @@ p, a, li{
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 200px
 }
 
 @media (max-width: 768px) {
