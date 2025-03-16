@@ -3,7 +3,6 @@ body {
   font-family: 'Lexend', sans-serif;
   display: flex;
   background: #f0f0f0;
-  overflow-y:  auto;
   justify-content: center;
   align-items: center;
   height: 100vh;
