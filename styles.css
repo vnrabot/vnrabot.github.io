@@ -19,7 +19,6 @@ h2{
   font-weight: bold;
   margin-bottom: 4px;
   text-align: center;
-  align-items: center;
 }
 
 h3{
@@ -27,7 +26,6 @@ h3{
   font-size: 15px;
   font-weight: bold;
   text-align: center;
-  align-items: center;
 }
 
 p, a, li{
