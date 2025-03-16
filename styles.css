@@ -116,7 +116,7 @@ p, a, li{
 }
 
 ul{
-  list-style-position: inside;
+  list-style-position: outside;
   padding-left: 0;
   margin-left: 0;
 }
