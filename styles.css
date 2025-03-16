@@ -72,6 +72,8 @@ p, a, li{
 .resume.container{
   width: 794px;
   height: 1123px;
+  max-width: 794px;
+  min-width: 794px;
   font-size: 14px;
   background: white;
   margin: auto;
