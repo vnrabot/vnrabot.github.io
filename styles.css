@@ -112,6 +112,10 @@ p, a, li{
   margin-top: 0;
 }
 
+ul{
+  list-style-type: "✔";
+}
+
 @media (max-width: 768px) {
   .resume.container{
     transform: scale(0.8);
