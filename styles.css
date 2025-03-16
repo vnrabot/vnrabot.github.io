@@ -108,7 +108,7 @@ p, a, li{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-itmes: center;
+  align-items: center;
   text-align: center;
   height: 200px
 }
