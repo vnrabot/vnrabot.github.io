@@ -73,10 +73,9 @@ p, a, li{
   width: 794px;
   height: 1123px;
   max-width: 794px;
-  min-width: 794px;
   font-size: 14px;
   background: white;
-  margin: 5px auto;
+  margin: auto;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
