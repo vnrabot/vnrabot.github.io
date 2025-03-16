@@ -117,11 +117,11 @@ ul{
   list-style-position: inside;
   padding-left: 0;
   margin-left: 0;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 li{
-  padding-left: 10px;
+  text-indent: 5px;
 }
 
 @media (max-width: 768px) {
