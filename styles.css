@@ -143,18 +143,23 @@ li{
 }
 
 @media (max-width: 794px) {
+  body{
+    font-size: 12px;
+  }
+  
   .resume.container{
     width: 100%;
     height: auto;
-    padding: 5vw;
+    padding: 10px;
   }
 
   .grid-container{
-    grid-template-columns: 1r;
+    grid-template-columns: 1fr;
   }
 
   .element-container{
-    grid-template-columns: 1fr;
+    grid-template-columns: clamp(150px, 65%, 70%) clamp(100px, 30%, 35%);
+    gap: 5px;
   }
 }
 
