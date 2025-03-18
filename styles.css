@@ -132,22 +132,26 @@ a{
 ul{
   list-style: none;
   padding-left: 0;
-  margin-bottom: 8px;
+  margin-bottom: 0;
 }
 
 li{
   font-size: 13px;
   position: relative;
+  margin-bottom: 3px;
   padding-left: 20px; /* Space for the bullet on the left */
 }
 
 li::before{
-  content: \"•\"; /* Emoji/Symbol for the bullet point */
+  /* Choose your symbol: “•” or “✓” or “✔” etc. */
+  content: \"•\";
   position: absolute;
-  color: black;
   left: 0;
   top: 0;
-  font-size: 20px;
+
+  /* Make sure the color is visible against your background */
+  color: black;
+  font-size: 16px;
   line-height: 1.2;
 }
 
