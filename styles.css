@@ -62,17 +62,19 @@ a{
   margin-top: 0;
 }
 
+.element-left, .element-right{
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+
 .element-left{
   text-align: left;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
 }
 
 .element-right{
   text-align: right;
   list-style-position: inside;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
 }
 
 .boxed-paragraph{
