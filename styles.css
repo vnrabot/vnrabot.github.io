@@ -55,7 +55,7 @@ a{
 
 .element-container{
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmaxx(0, 1fr);
+  grid-template-columns: minmax(0, 3fr) minmax(0, 1fr);
   gap: 20px;
   align-items: start;
   margin-bottom: 0;
