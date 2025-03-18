@@ -130,17 +130,25 @@ a{
 }
 
 ul{
-  list-style-position: outside;
-  padding-left: 20px;
-  margin-left: 0;
-  margin-top: 0;
-  margin-bottom: 10px;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 li{
   font-size: 13px;
-  text-indent: -8px;
-  padding-left: 8px;
+  position: relative;
+  margin-bottom: 8px; /* Space between bullets */
+  padding-left: 20px; /* Space for the bullet on the left */
+}
+
+li::before{
+  content: \"*\"; /* Emoji/Symbol for the bullet point */
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 
