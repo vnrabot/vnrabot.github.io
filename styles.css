@@ -130,8 +130,8 @@ a{
 }
 
 ul{
-  list-style-position: inside;
-  padding-left: 0px;
+  list-style-position: outside;
+  padding-left: 20px;
   margin-left: 0;
   margin-top: 0;
   margin-bottom: 10px;
@@ -139,8 +139,8 @@ ul{
 
 li{
   font-size: 13px;
-  text-indent: -5px;
-  padding-left: 5px;
+  text-indent: -10px;
+  padding-left: 10px;
 }
 
 
