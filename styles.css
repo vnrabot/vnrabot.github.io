@@ -130,7 +130,7 @@ a{
 }
 
 ul{
-  list-style-position: outside;
+  list-style-position: inside;
   padding-left: 20px;
   margin-left: 0;
   margin-top: 0;
