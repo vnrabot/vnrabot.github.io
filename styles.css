@@ -146,7 +146,7 @@ li{
   body{
     font-size: 12px;
   }
-  
+
   .resume.container{
     width: 100%;
     height: auto;
@@ -158,8 +158,14 @@ li{
   }
 
   .element-container{
-    grid-template-columns: clamp(150px, 65%, 70%) clamp(100px, 30%, 35%);
+    grid-template-columns: 60% 40%;
     gap: 5px;
+  }
+
+  .element-right{
+    text-align: left;
+    word-break: break-word;
+    padding-right: 5px;
   }
 }
 
