@@ -142,32 +142,6 @@ li{
   text-indent: 5px;
 }
 
-@media (max-width: 794px) {
-  body{
-    font-size: 12px;
-  }
-
-  .resume.container{
-    width: 100%;
-    height: auto;
-    padding: 10px;
-  }
-
-  .grid-container{
-    grid-template-columns: 1fr;
-  }
-
-  .element-container{
-    grid-template-columns: 60% 40%;
-    gap: 5px;
-  }
-
-  .element-right{
-    text-align: left;
-    word-break: break-word;
-    padding-right: 5px;
-  }
-}
 
 @media print{
   body{
