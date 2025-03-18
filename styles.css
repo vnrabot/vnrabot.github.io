@@ -143,7 +143,7 @@ li{
 }
 
 li::before{
-  content: \"*\"; /* Emoji/Symbol for the bullet point */
+  content: \"•\"; /* Emoji/Symbol for the bullet point */
   position: absolute;
   left: 0;
   top: 0;
