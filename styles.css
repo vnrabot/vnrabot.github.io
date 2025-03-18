@@ -144,7 +144,7 @@ li{
 
 li::before{
   /* Choose your symbol: “•” or “✓” or “✔” etc. */
-  content: \"•\";
+  content: "•";
   position: absolute;
   left: 0;
   top: 0;
