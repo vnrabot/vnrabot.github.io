@@ -238,7 +238,6 @@ ul.checklist{
   }
 
   .resume-container{
-    transform: scale(0.93);
     transform-origin: top center;
     width: 100%;
     height: auto;
