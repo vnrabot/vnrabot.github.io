@@ -187,7 +187,7 @@ ul.checklist{
 
 @media (max-width: 600px){
   body{
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .contact-info{
@@ -201,9 +201,9 @@ ul.checklist{
   }
   
   .element-container{
-    /*grid-template-columns: clamp(180px, 60%, 65%) clamp(120px, 35%, 40%);*/
-    grid-template-columns: 1fr;
-    gap: 10px;
+    grid-template-columns: clamp(150px, 60%, 65%) clamp(90px, 35%, 40%);
+    /*grid-template-columns: 1fr;*/
+    gap: 8px;
   }
 
   .element-left, .element-right{
