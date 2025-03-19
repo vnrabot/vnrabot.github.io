@@ -42,7 +42,7 @@ a{
 
 .contact-info {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 10px;
   justify-content: center;
 }
@@ -191,9 +191,13 @@ ul.checklist{
   }
 
   .contact-info{
-    display: block;
+    gap:5px;
     margin: 4px 0;
     text-align: center;
+  }
+
+  .contact-info a{
+    font-size: 11px;
   }
 
   .resume-container{
