@@ -220,6 +220,7 @@ ul.checklist{
 
 @media print{
   body{
+    font-size: 12px;
     size: A4;
     margin: 10mm;
     font-family: 'Lexend', sans-serif;
