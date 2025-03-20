@@ -279,7 +279,7 @@ ul.checklist{
   }
 
   .resume-container{
-    transform:scale(0.80);
+    transform:scale(0.75);
     transform-origin: top center;
     width: 100%;
     height: auto;
