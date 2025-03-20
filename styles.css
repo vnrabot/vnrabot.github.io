@@ -258,7 +258,7 @@ ul.checklist{
 
   @page{
     size: A4;
-    margin: 8mm;
+    margin: 5mm;
   }
 
   body{
@@ -266,7 +266,7 @@ ul.checklist{
     font-family: 'Lexend', sans-serif;
     color: black;
     background: white;
-    line-height: 1.2;
+    line-height: 1.1;
   }
 
   a{
