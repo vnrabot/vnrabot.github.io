@@ -223,7 +223,7 @@ ul.checklist{
 
 @media (max-width: 600px){
   body{
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .contact-info{
@@ -274,6 +274,7 @@ ul.checklist{
   }
 
   .resume-container{
+    transform:scale(0.95);
     transform-origin: top center;
     width: 100%;
     height: auto;
