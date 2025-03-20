@@ -147,18 +147,18 @@ li{
   padding-left: 20px; /* Space for the bullet on the left */
 }
 
-li::before{
-  /* Choose your symbol: “•” or “✓” or “✔” etc. */
+/* /*li::before{
+  Choose your symbol: “•” or “✓” or “✔” etc.
   content: "•";
   position: absolute;
   left: 0;
   top: 0;
 
   /* Make sure the color is visible against your background */
-  color: black;
+  /* color: black;
   font-size: 16px;
-  line-height: 1.2;
-}
+  line-height: 1.2; */
+/* }  */
 
 ul.checklist{
   list-style: none;
