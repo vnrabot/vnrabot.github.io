@@ -270,7 +270,7 @@ ul.checklist{
     font-family: 'Lexend', sans-serif;
     color: black;
     background: white;
-    line-height: 1.1;
+    /* line-height: 1.1; */
   }
 
   a{
