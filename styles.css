@@ -177,7 +177,7 @@ ul.checklist {
   padding-left: 20px;
 }
 
-.checklist li.indented {
+.checklist li:nth-child(2) {
   padding-left: 40px;
 }
 
@@ -230,6 +230,10 @@ ul.checklist {
   margin-left: 20px;
   list-style: disc;
   padding-left: 20px;
+}
+
+.accomplishments li.indented {
+  padding-left: 40px
 }
 
 @media (max-width: 600px) {
