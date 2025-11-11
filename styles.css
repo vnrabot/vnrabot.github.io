@@ -245,7 +245,6 @@ ul.checklist {
 }
 
 .accomplishments li.indented {
-  content: "○";
   padding-left: 40px;
 }
 
