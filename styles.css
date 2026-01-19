@@ -312,7 +312,8 @@ ul.checklist {
   }
 
   .resume-container {
-    transform: scale(0.90);
+    /* transform: scale(0.90); */
+    zoom: 90%;
     transform-origin: top center;
     width: 100%;
     height: auto;
